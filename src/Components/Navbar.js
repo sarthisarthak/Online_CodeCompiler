@@ -38,16 +38,21 @@ const Navbar = ({
         placeholder={userTheme}
       />
       <label>Font Size</label>
-      <input
-        type="range"
-        min="18"
-        max="30"
+      <select
         value={fontSize}
-        step="2"
         onChange={(e) => {
           setFontSize(e.target.value);
         }}
-      />
+        style={{ fontSize: "18px", borderRadius: "10px", color: "#6c757d" }}
+      >
+        <option value="18">18px</option>
+        <option value="20">20px</option>
+        <option value="22">22px</option>
+        <option value="24">24px</option>
+        <option value="26">26px</option>
+        <option value="28">28px</option>
+        <option value="30">30px</option>
+      </select>
     </div>
   );
 };

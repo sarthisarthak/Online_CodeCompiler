@@ -6,9 +6,10 @@
     padding-left: 20px;
     height: 50px;
     text-align: center;
-    color: #afec3f;
-    background-color: #474747;
+    color: #dde0ab;
+    background-color: rgb(60, 58, 58);
     gap: 20px;
+    border: #474747;
 }
 
 #no {
